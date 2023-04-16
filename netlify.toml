@@ -4,6 +4,6 @@
   to = "https://github.com/:splat"
   status = 200
 [[redirects]]
-  from = "/session/*"
+  from = "/session"
   to = "https://github.com/sessions/two-factor/app"
-  status = 200
+  status = 302
