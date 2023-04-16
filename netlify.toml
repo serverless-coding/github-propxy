@@ -1,8 +1,8 @@
 
 [[redirects]]
   from = "/session"
-  to = "https://github.programnotes.cn/sessions/two-factor/app"
-  status = 200
+  to = "https://github.com/sessions/two-factor/app"
+  status = 302
 
 [[redirects]]
   from = "/*"
