@@ -1,0 +1,5 @@
+
+[[redirects]]
+  from = "/*"
+  to = "https://github.com/:splat"
+  status = 200
