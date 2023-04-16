@@ -1,9 +1,11 @@
 
 [[redirects]]
-  from = "/*"
-  to = "https://github.com/:splat"
-  status = 200
-[[redirects]]
   from = "/session"
   to = "https://github.com/sessions/two-factor/app"
   status = 302
+
+[[redirects]]
+  from = "/*"
+  to = "https://github.com/:splat"
+  status = 200
+
