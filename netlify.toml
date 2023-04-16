@@ -2,7 +2,7 @@
 [[redirects]]
   from = "/session"
   to = "https://github.com/sessions/two-factor/app"
-  status = 302
+  status = 200
 
 [[redirects]]
   from = "/*"
