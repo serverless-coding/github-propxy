@@ -1,4 +1,3 @@
-
 [[redirects]]
   from = "/session"
   to = "https://github.com/sessions/two-factor/app"
@@ -6,7 +5,7 @@
 
 [[redirects]]
   from = "/assets/*"
-  to = "https://github.githubassets.com/assets/:splat"
+  to = "https://github.githubassets.com/:splat"
   status = 200
 
 [[redirects]]
