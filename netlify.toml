@@ -1,15 +1,23 @@
+# [[redirects]]
+#   from = "/session"
+#   to = "https://github.com/sessions/two-factor/app"
+#   status = 302
+# 不代理登录接口
 [[redirects]]
-  from = "/session"
-  to = "https://github.com/sessions/two-factor/app"
-  status = 302
+from = "/session"
+to = "/"
+status = 403
+[[redirects]]
+from = "/login"
+to = "/"
+status = 403
 
 [[redirects]]
-  from = "/assets/*"
-  to = "https://github.githubassets.com/:splat"
-  status = 200
+from = "/assets/*"
+to = "https://github.githubassets.com/:splat"
+status = 200
 
 [[redirects]]
-  from = "/*"
-  to = "https://github.com/:splat"
-  status = 200
-
+from = "/*"
+to = "https://github.com/:splat"
+status = 200
